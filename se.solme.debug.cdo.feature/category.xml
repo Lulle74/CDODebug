@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/se.solme.debug.cdo.feature_1.0.3.qualifier.jar" id="se.solme.debug.cdo.feature" version="1.0.3.qualifier">
+      <category name="se.solme.avix.debug.cdo.category"/>
+   </feature>
+   <category-def name="se.solme.avix.debug.cdo.category" label="CDO Debugging Category"/>
+</site>

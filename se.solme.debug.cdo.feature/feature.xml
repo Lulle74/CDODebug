@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="se.solme.debug.cdo.feature"
+      label="Debug CDOFeature v 1.0.3"
+      version="1.0.3.qualifier">
+
+   <description url="http://www.example.com/description">
+      CDO Debug facilities - assists with logical structure debugging.
+   </description>
+
+   <plugin
+         id="se.solme.debug.cdo"
+         download-size="0"
+         install-size="0"
+         version="1.0.3.qualifier"
+         unpack="false"/>
+
+</feature>

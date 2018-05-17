@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cdo Debug Bundle
+Bundle-SymbolicName: se.solme.debug.cdo;singleton:=true
+Bundle-Version: 1.0.3.qualifier
+Automatic-Module-Name: se.solme.debug.cdo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.debug.ui,
+ org.eclipse.jdt.debug,
+ org.eclipse.jdt.core
+Bundle-Vendor: Solme AB

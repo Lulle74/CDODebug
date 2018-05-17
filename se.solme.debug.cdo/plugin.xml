@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.core.logicalStructureProviders">
+      <logicalStructureProvider
+            class="se.solme.debug.cdo.CdoLogicalStructureProvider"
+            modelIdentifier="org.eclipse.jdt.debug">
+      </logicalStructureProvider>
+   </extension>
+
+</plugin>
