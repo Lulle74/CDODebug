@@ -103,7 +103,7 @@ public class CdoLogicalStructureType implements ILogicalStructureType {
 
 			}
 			//What we return as "logical children" for the EObject are the variables.
-			return new LogicalObjectStructureValue(javaValue, variables.toArray(new IJavaVariable[0]));
+			return new LogicalObjectStructureValue(javaValue, variables.toArray(new JDIPlaceholderVariable[0]));
 
 		} catch (CoreException e) {
 			if (e.getStatus().getCode() == IJavaThread.ERR_THREAD_NOT_SUSPENDED) {
