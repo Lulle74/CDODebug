@@ -3,9 +3,12 @@
 This is for you who miss the ease of debugging CDOObject instances just like you would plain EObjects in the Eclipse debugger. 
 
 Usage details (intended for end user, i.e. a developer debugging with an EMF-based meta model, using CDO as backend):
-* Get the pre-built P2 update site called "CdoDebug.zip" from the CDODebugBuilds project in this repository
+* Get the pre-built P2 update site zip file from the CDODebugBuilds project in this repository
+	** "CDODebug1_1_0.zip" is verified to work in Eclipse 2021-12 (4.22.0)
+	** "CDODebug.zip" is older - works in Eclipse ??? 
 * Install it the normal way into your Eclipse IDE (Help->Install new Software...  etc). Restart needed. 
 * Assert that the button "Show logical structure" in the "Variables" view in the debugging perspective is selected.
+
 
 Implementation details:
 * The class CDOLogicalStructureProvider is registered to the extension point "org.eclipse.debug.core.logicalStructureProviders", using the modelIdentifier="org.eclipse.jdt.debug"
